@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+
+<!--
+  This HTML page generates a paper wallet for BCH and SLP tokens.
+-->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Zensurresistent CH</title>
+    <link rel="icon favicon" href="favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="https://fontlibrary.org//face/acari-sans-neue"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="page">
+    <p id="new-version" class="new__version">
+      Psst! A new version of this website is availlable <a id="new-version-btn" href="#">here</a>...
+      
+    </p>
+    <nav class="navbar">
+      <div class="container__nav">
+        <div class="logo">Zensurresistent</div>
+        <ul class="nav">
+          <li>
+            <a href="#">Kontakt</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <header class="header">
+      <div class="container">
+        <div>
+          <h1 class="title">Willkommen im Web 3</h1>
+          <p>
+            Die dritte Generation des Internets ist da. Diese Webseite zeigt beispielhaft auf, wie diese neuen dezentralisierten Technologien angewendet werden können, um Informatinen zu teilen, ohne dass sie von irgend einer Instanz zensiert werden können.
+          </p>
+        </div>
+        <img src="./assets/dweb-icon.png" alt="" class="img-responsive"/>
+      </div>
+    </header>
+
+    <section class="boxes">
+      <div class="container">
+        <div class="box">
+          <h2><i class="fas fa-arrows-alt"></i>Zensurresistent</h2>
+          <p>
+            Keine Instanz dieser Welt kann diese Website zensieren. Es gibt keinen zentralen Angriffspunkt.
+          </p>
+        </div>
+
+        <div class="box">
+          <h2><i class="fas fa-arrows-alt-v"></i>Dezentralisiert</h2>
+          <p>
+            Websites welche auf IPFS gehostet werden, können ähnlich wie bei Torrents von jedem kopiert und wieder zur Verfügung gestellt werden.
+          </p>
+        </div>
+
+        <div class="box">
+          <h2><i class="fas fa-mobile"></i >Updates</h2>
+          <p>
+            Dank der Kombination mit Blockchain Technologie kann sichergestellt werden, dass du jederzeit die aktuellste Website von IPFS geliefert bekommst.
+          </p>
+        </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="history">
+          <h1 class="sub-title">Die Geschichte des Internets</h1>
+            <div>
+              <h2>1. Generation - Connection established!</h2>
+              <p>Die erste Generation des Internets war der Durchbruch von DNS als "Telefonbuch" und der Aufbau von Webserver, welche Daten (mehrheitlich statische Seiten) um die ganze Welt verteilen konnten.</p>
+            </div>
+            <div>
+              <h2>2. Generation - Mehr Dynamik</h2>
+              <p>Als sich die Technologien weiterentwickelten, wurden immer dynamischere Websiten möglich (Vernetzung von Daten mittels APIs und unzählige weitere Webtechnologien). Dies führte zu dem, was die meisten Menschen heute als Internet bezeichnen. Animierte, schön gestylte Websiten mit dynamischem Inhalt.
+                Trotz all den Errungenschaften des Web2, bleiben einige Schwachstellen bis Heute bestehen. Zum Beispiel ist es ziemlich einfach, eine Website zu zensieren und offline zu bringen. Dies vorallem, weil die IP Adressen der Webseiten über das zentralisierte DNS System aufgelöst werden. Diese können beschlagnahmt oder blockiert werden und eine Webseite wird unauffindbar. Wird noch der dazugehörige Facebook und der Twitter Account zensiert, verliert die betroffene Organisation die komplette Audienz und wird so gut wie unauffindbar.
+            </p>
+            </div>
+            <div>
+              <h2>3. Generation - Mesh Networks</h2>
+            <p>
+              Die dritte Generation des Internets wurde nicht zuletzt auch mit Bitcoin eingeleutet. Die unterliegende Technologie (Blockchain - oder einfach eine Datenbank mit DLT (Distributed Ledger Technology)) ermöglicht es, ein Netzwerk von Computer aufzubauen, die sich konstant synchronisieren und somit einen Konens über den Status der geteilten Daten erlangen.
+            Dezentralisierte Netzwerke oder sogar Mesh Netzwerke wie IPFS (Inter Planetary File System) bieten die Möglichkeit, Applikationen oder auch Websiten denzentralisiert zu hosten. Diese Funktionalität kann die Zensur oder sogar auch staatliche Firewalls umgehen. Mit der Krypto-Community entstehen immer mehr Anwendungsfelder für solche Applikationen -> die Effizienz wird besser und die Performanz nimmt zu.
+            </p>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h1 class="sub-title">Inter Planetary File System (<a href="https://ipfs.io">IPFS</a>)</h1>
+        <div class="history">
+          <div><h2>Inter Planetary... Was??</h2>
+          <p>Das Inter Planetary File System ist eine Technologie aus der Welt des Web3. Es vereint mehrere Eigenschaften, die für eine Vielfalt von Applikationen nützlich sind. Der hier relevanteste Teil ist der Mechanismus, wie Dateien lokalisiert werden können.
+          </p></div>
+            <div>
+              <h2>Lokationsbasierte vs. Inhaltsbasierte Auflösung</h2>
+            <p>
+              Wie bereits erwähnt funktioniert das Web1 & Web2 bis heute über DNS (Domain Name System) und löst somit eine Domain wie zum Beispiel "zensurresistent.ch" auf die hinterlegte IP Adresse auf, wo der Webserver die Website ausliefert. Da diese IP Adresse immer nur ein einziges Ziel haben kann, gibt es genau einen einzigen Webserver, der den Request bearbeitet. Somit kann man sagen, dass die Suche Lokationsbasiert statt findet. Wir lösen den Name der Domain auf die IP Adresse auf, welche den genauen Ort der Webseite angibt. <br><br>
+              Zurück zu IPFS... IPFS ist ein Netzwerk aus Computer, welche miteinander kommunizieren und gegenseitig Daten austauschen können. Dies nennt man in diesem Fall ein Peer-To-Peer Netzwerk. Es gibt also kein zentraler Bestandteil, der für die Funktionsweise zuständig ist. Jede Node ist unabhängig und verbindet sich mit anderen Rechnern. <br><br>
+            Wenn nun eine Datei auf einenen dieser Rechner hochgeladen wird, wird diese Datei in kleine Blöcke zerlegt und bekommt einen Content Identifier (CID). Dieser CID Wird durch eine Kryptographische Funktion wie zb der SHA-265 Algorithmus generiert und ist für jede hochgeladene Datei einzigartig. Falls diese Datei nun über IPFS veröffentlicht wird, ist sie genau unter diesem CID auffindbar. <br><br>
+            Wenn also nun ein anderer Computer (oder ein User eine IPFS Node nutzt und) diesen CID im IPFS Netzwerk sucht, werden verschiedene Nodes Teile der Datei liefern, welche dann lokal zu der kompletten Datei zusammengesetzt werden können. In diesem Fall spielt es also nun keine Rolle mehr, welcher Server die Datei liefert, oder wo genau sich dieser befindet, wichtig ist nur, dass er die richtige Datei hat. Wenn diese Datei eine Webseite ist, wird sie somit so gut wie zensurresistent. Weiter ist der Sicherheitsmechanismus inherent zum Protokoll. Niemand kann die gesuchte Datei auf dem Weg von einem zum anderen Computer insgeheim verändern, da sich ja automatisch der CID verändern würde und somit die Datei nicht mehr der gesuchten entspräche... Genial, nicht? ;) 
+            </p>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div>
+          <h1 class="sub-title">Distributed Ledger Technology (aka Blockchain)</h1>
+            <h2>Transaktionen als Informationsträger nutzen.</h2>
+            <p>
+              Blockchains wie zb Bitcoin, basieren auf dem Konsens über den Status der Daten. In diesem Fall geht es um Transaktionen die in sogenannten Blocks aneinander gekettet werden. Ist ein Block einmal im Netzwerk akzeptiert (validiert & gemined), dann wird das gesamte Computernnetzwerk diesen BLock bei sich abspeichern.
+              Da die Blöcke "aufeinander" aufbauen, können bereits validierte Blöcke nicht mehr verändert werden. Diese Eigenschaft ist eine der Sicherheiten von Bitcoin. Es können weder Coins einfach so erfunden, noch Transaktionen rückgängig gemacht werden. Somit können einzelne Transaktionen in diesen Blöcken auch nicht gelöscht werden. Die Informationen sind persistiert im gesamten Netzwerk & somit auch zensurresistent.
+            </p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div>
+          <h1 class="sub-title">Memo Protokoll</h1>
+            <h2>Memo als zensurresistente Datenbank.</h2>
+            <p>
+              Die erwähnte zensursichere Ablage von Transaktionen auf einer Blockchain kann nun von Usern genutzt werden um Metainformationen abzuspeichern. Ähnlich wie bei einer Banktransaktion kann zb eine beliebige Nachricht an den Empfänger übermittelt werden.<br><br>
+              Das Memo Protokoll ist so eine Form der Übermittlung von Metadaten. Das Memo Protokoll wurde auf der Bitcoin Cash (ein sogenannter hard fork von Bitcoin) Blockchain entwickelt und kann dank den niedrigen Transaktionskosten, zum speichern von Informationen verwendet werden.
+              <br><br>
+              Auf <a href="https://memo.cash">memo.cash</a> sieht man eine konkrete Anwendung. Es ist eine Art Twitter, welche ihre Daten komplett aus BCH Transaktionen via Memo Protokoll speichert und lädt.
+            </p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div>
+          <h1 class="sub-title">Permissionless Software Foundation (<a href="https://github.com/Permissionless-Software-Foundation">PSF</a>)</h1>
+            <h2>Die Ziele einer DAO.</h2>
+            <p>
+              Die dezentralisierte autonome Organisation (DAO) Permissionless Software Foundation beschäftigt sich mit den Themen zensurresistenz und permissionsless software, wie der Name es schon sagt. Sie entwickelt Softwaremodule, welche die Nutzung dieser Technologien vereinfacht. Der hier verwendete Code ist Open Source und ist auf der Website der PSF einsehbar.
+            </p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div>
+          <h1 class="sub-title">So funktionierts...</h1>
+            Auf dem normalen Webserver von zensurresistent.ch liegt eine Website, dessen einzige Aufgabe ist, auf die IPFS Webseite weiterzuleiten. Dies geschieht folgendermassen:
+            <ol class="within-text">
+              <li>
+                Beim öffnen der Website wird nun im Hintergrund automatisch auf die BCH Blockchain zugegriffen. Die Information, welche von der Blockchain via Memo Protokoll geholt wird, ist der letzte veröffentlichte CID der Website.</li>
+                <li>
+                Sobald dieser CID gefunden wurde wird eine URL zusammengebaut, die auf den Cloudflare Gateway für das IPFS Netzwerk zeigt.
+                </li>
+                <li>Du wirst auf die IPFS Website weitergeleitet.
+                </li>
+            </ol>
+
+            Die Website wird lokal entwickelt, also nichts Neues hier. Sobald ein Update veröffentlicht werden soll, wird ein kleines Program (einen Script) gestartet. Folgende Schritte werden ausgeführt:
+              
+            <ol class="within-text">
+              <li>
+                Die Website wird auf IPFS hochgeladen. Sobald der Upload fertig ist, speichert das Program den neuen CID.
+              </li>
+              <li>
+                Die speziefische BCH-Wallet, welche mit dem Memo Account auf memo.cash verknüpft ist, wird instanziert.
+              </li>
+              <li>
+                Eine Transaktion wird gebaut, in welcher der neue CID der Website als Meta-Information via Memo geschrieben wird.
+              </li>
+            </ol>
+              Ist dieser Prozess erfolgreich abgeschlossen, wird auf dem öffentlichen Memo Profil nun der neue IPFS CID ersichtlich.
+
+              Sobald nun erneut die Webseite zensurresistent.ch aufgerufen wird, wird man auf die neuste Version der IPFS Website weitergeleitet.
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div>
+          <h1 class="sub-title">Was ist mit Updates?</h1>
+            Da der CID aus dem Inhalt der Daten resultiert, wird die URL der IPFS Website natürlich bei jedem Update der Seite komplett neu. Wie kann trotzdem sicher gestellt werden, dass zu jedem Zeitpunkt die aktuelle Version geladen wird?
+            <br>
+            Um dieses Problem zu lösen läuft beim laden der IPFS Website im Hintergrund ein Script, der nach ähnlichem Mechanismus wie oben beschrieben, auf der BCH Blockchain den neusten CID hohlt. Falls sich der User auf einer alten Version der Webseite befindet, wird ein Banner angezeigt, welcher auf die aktuellste Version verlinkt.
+        </div>
+      </div>
+    </section>
+
+    <section class="last">
+      <div class="container">
+        <div>
+          <h1 class="sub-title">Ausblick</h1>
+            Die Appikationen der hier verwendeten Technologien stehen noch immer erst am Anfang des Möglichen. Es ist bereits möglich, dezentralisierte Datenbanken & API via IPFS Protokolle zu nutzen. Somit werden komplett dezentralisierte Websiten, Blogs, CMS, Apps, Messengers und Vieles mehr in die dritte Generation des Internets gehoben. Die Revolution passiert jetzt! :)
+        </div>
+      </div>
+    </section>
+
+    </div>
+  </body>
+  <script src="https://unpkg.com/minimal-slp-wallet"></script>
+  <script src="https://unpkg.com/bch-message-lib"></script>
+
+  <script src="./check-update.js"></script>
+</html>

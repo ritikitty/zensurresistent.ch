@@ -1,0 +1,173 @@
+@import url('https://fontlibrary.org//face/acari-sans-neue');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #919191;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2 {
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.page {
+  margin: 0px auto;
+  max-width: 1200px;
+}
+
+.new__version {
+  display: none;
+  text-align: center;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 80px;
+}
+
+.navbar {
+  background: #444444;
+  color: #fff;
+  height: 60px;
+}
+
+.navbar .logo {
+  font-size: x-large;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.navbar a:hover {
+  color: lightblue;
+}
+
+.navbar .container__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  margin-left: 20px;
+}
+
+.header {
+  background: #919191;
+  color: rgb(0, 0, 0);
+  min-height: 400px;
+  /* padding: 24px; */
+}
+
+.header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.header img {
+  max-width: 400px;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.boxes .container {
+  display: flex;
+  justify-content: space-between;
+  /* margin: 40px; */
+  /* margin-bottom: 80px; */
+}
+
+.box {
+  flex: 1;
+  background: #8c9ab1;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  margin: 20px 10px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0.6);
+  padding: 15px 20px;
+}
+
+.box i {
+  margin-right: 10px;
+}
+
+.sub-title {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2;
+  color: rgb(0, 0, 0);
+}
+
+.history {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.within-text {
+  padding: 30px;
+}
+
+.last {
+  margin-bottom: 24px;
+}
+
+@media (max-width: 768px) {
+  .navbar__nav {
+    padding: 0 20px 0 20px;
+  }
+
+  .header .container {
+    margin: 0px;
+    flex-direction: column;
+    padding: 24px;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .header .container .img-responsive {
+    max-width: 240px;
+  }
+
+  .boxes .container {
+    display: block;
+    margin: 0px;
+  }
+}
